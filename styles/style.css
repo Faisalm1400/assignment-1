@@ -1,0 +1,127 @@
+* {
+    font-family: "Azeret Mono", monospace;
+    margin: 0px;
+}
+
+/* shared styles */
+
+
+/* header styles */
+
+/* title styles */
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+    color: #0D1321;
+}
+
+.title-name {
+    font-size: 28px;
+    font-weight: 800px;
+}
+
+.dwnd-resume {
+    border-radius: 8px;
+    padding: 17px 24px;
+    font-size: 20px;
+    font-weight: 600px;
+    background-color: white;
+}
+
+/* banner styles */
+.banner {
+    background-image: url(../assets/Hero-bg.png);
+    width: 1440px;
+    height: 652px;
+    color: #0D1321;
+    background-repeat: no-repeat;
+}
+
+.banner-container {
+    text-align: center;
+    padding: 26px 221px;
+}
+
+.banner-image {
+    margin-top: 26px;
+}
+
+.banner-title {
+    font-weight: 800px;
+    font-size: 48px;
+    margin-top: 32px;
+}
+
+.banner-description {
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.banner-btn {
+    height: 65px;
+    width: 244px;
+    border-radius: 8px;
+    padding: 21px 24px;
+    font-size: 20;
+    font-weight: 600px;
+    color: white;
+    background-color: #0D1321;
+    margin-top: 32px;
+}
+
+/* development styles */
+.second-bg-color {}
+
+.development {
+    border-radius: 16px;
+    padding: 80px 97px;
+    text-align: center;
+    background-color: rgba(13, 19, 33, 0.02);
+    margin: 74px 150px;
+}
+
+.section-title {
+    font-weight: 800px;
+    font-size: 32px;
+}
+
+.section-description {
+    margin-top: 24px;
+    font-size: 16px;
+}
+
+/* info styles */
+.info {
+    margin-top: 48px;
+}
+
+.dev-info {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    gap: 99px;
+    border-radius: 16px;
+    background-color: white;
+    padding: 48px;
+}
+
+.dev-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(13, 19, 33, 0.7);
+    margin-top: 58.5px;
+}
+
+.dev-description {
+    margin-top: 16px;
+    font-size: 16px;
+}
+
+.dev-more {
+    margin-top: 32px;
+    font-size: 20px;
+    font-weight: 600px;
+    height: 47px;
+    width: 171px;
+}
