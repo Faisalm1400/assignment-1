@@ -1,10 +1,33 @@
+/* shared styles */
 * {
     font-family: "Azeret Mono", monospace;
     margin: 0px;
 }
 
-/* shared styles */
+.section-title {
+    font-weight: 800px;
+    font-size: 32px;
+}
 
+.section-description {
+    margin-top: 24px;
+    font-size: 16px;
+}
+
+.target-title{
+    margin-top: 24px;
+    font-size: 24px;
+    font-weight: 800px;
+}
+.target-description{
+    margin-top: 8px;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.target-more{
+    font-size: 16px;
+    font-weight: bold;
+}
 
 /* header styles */
 
@@ -71,8 +94,6 @@
 }
 
 /* development styles */
-.second-bg-color {}
-
 .development {
     border-radius: 16px;
     padding: 80px 97px;
@@ -80,17 +101,6 @@
     background-color: rgba(13, 19, 33, 0.02);
     margin: 74px 150px;
 }
-
-.section-title {
-    font-weight: 800px;
-    font-size: 32px;
-}
-
-.section-description {
-    margin-top: 24px;
-    font-size: 16px;
-}
-
 /* info styles */
 .info {
     margin-top: 48px;
@@ -127,7 +137,8 @@
     width: 171px;
     color: #0D1321;
 }
-.dev-info-2{
+
+.dev-info-2 {
     display: flex;
     align-items: center;
     text-align: start;
@@ -135,8 +146,10 @@
     border-radius: 16px;
     background-color: white;
     padding: 48px;
+    margin-top: 32px;
 }
-.dev-info-3{
+
+.dev-info-3 {
     display: flex;
     align-items: center;
     text-align: start;
@@ -144,4 +157,95 @@
     border-radius: 16px;
     background-color: white;
     padding: 48px;
+    margin-top: 32px;
+}
+
+/* my inspiration styles */
+.inspiration{
+    margin: 90px 150px;
+    text-align: center;
+}
+.embed{
+    margin-top: 48px;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.2);
+    padding: 32px;
+}
+
+/* current target styles */
+.current-target{
+    margin: 151px 150px;
+    text-align: center;
+}
+.targets{
+    display: flex;
+    margin-top: 48px;
+    gap: 24px;
+    width: 1300px;
+    height: 400px;
+    color: #0D1321;
+}
+
+.html-target{
+    text-align: start;
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+}
+.css-target{
+    text-align: start;
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+}
+.js-target{
+    text-align: start;
+    background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+}
+
+/* support styles */
+.support{
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url(../assets/handshake.jpg);
+    height: 313px;
+    width: 1140px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    text-align: center;
+    margin: 49px 150px;
+}
+.support-container{
+    padding: 66px 48px;
+}
+.support-title{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+.support-description{
+    color: white;
+    font-size: 16px;
+    margin-top: 16px;
+}
+.support-inputs{
+    margin-top: 24px;
+}
+.support-inputs input[type="text"]{
+    width: 548px;
+    border-radius: 8px;
+    padding: 19px 20px;
+    margin-right: 16px;
+    color: 0D1321;
+    font-size: 16px;
+}
+.support-inputs input[type="submit"]{
+    width: 120px;
+    border-radius: 8px;
+    padding: 17px 20px;
+    color: 0D1321;
+    font-size: 20px;
+    font-weight: 600px;
 }
