@@ -211,6 +211,30 @@
     padding: 40px;
 }
 
+/* next target styles */
+.next-targets{
+    text-align: center;
+    margin: 111px 150px;
+    color: #0D1321;
+}
+.nxt-targets{
+    display: flex;
+    margin-top: 48px;
+}
+.target-container{
+    display: flex;
+    gap: 24px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    padding: 40px;
+    text-align: start;
+    align-items: center;
+}
+.target-image{
+    width: 95px;
+    height: 108px;
+}
+
 /* support styles */
 .support{
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url(../assets/handshake.jpg);
