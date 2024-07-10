@@ -31,7 +31,9 @@
 .support-inputs input[type="submit"], button{
     cursor: pointer;
 }
-
+a{
+    color: #0D1321;
+}
 /* header styles */
 
 /* title styles */
